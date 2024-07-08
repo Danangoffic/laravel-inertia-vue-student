@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* btn class */
+.btn {
+    @apply py-2 px-4;
+    @apply rounded-md;
+    @apply border border-gray-300;
+    @apply bg-white;
+    @apply text-gray-600;
+    @apply hover:bg-gray-100;
+    @apply transition duration-300 ease-in-out;
+  }
+
+  /* btn-sm class */
+  .btn-sm {
+    @apply py-1 px-2;
+    @apply rounded;
+    @apply hover:bg-gray-200;
+    @apply transition duration-200 ease-in-out;
+    @apply text-xs;
+  }
